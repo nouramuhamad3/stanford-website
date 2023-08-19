@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+        href="
+        https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>university</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/css/images/stanford-logo-removebg-preview.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Contact</h1>
+    </section>
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3168.407611375735!2d-122.169719!3d37.4274745!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2a678bea9d%3A0x29cdf01a44fc687f!2sStanford%20University!5e0!3m2!1sen!2seg!4v1692471809975!5m2!1sen!2seg"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row-contact">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>XYZ Road, ABC building</h5>
+                        <p>Stanford university, united states</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+1 1234567890</h5>
+                        <p>Monday to Friday, 10AM to 6PM</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>stabforduniversity@hotmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter your Name" required>
+                <input type="email" placeholder="Enter your Email" required>
+                <input type="text" placeholder="Enter your Subject" required>
+                <textarea row="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn"> Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Saepe dolorem quia laborum, eaque dicta aperiam veniam
+            voluptatum eius, soluta<br>adipisci laboriosam! Natus ratione
+            corporis, at qui cupiditate eaque quibusdam harum.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px"
+        }
+    </script>
+</body>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+        href="
+        https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>university</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/css/images/stanford-logo-removebg-preview.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2022</h1>
+    </section>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px"
+        }
+    </script>
+    <!-------------blog----------->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./css/images/gradyated.jpg">
+                <h2>Our Certificate & Online Programs For 2022</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla tenetur sapiente earum amet
+                    distinctio, eum voluptatibus odio mollitia consequuntur veritatis a quod, quidem recusandae delectus
+                    quo molestias esse? Repellendus, architecto.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquid officiis cumque, quis
+                    ducimus blanditiis voluptates cupiditate neque repellat temporibus officia numquam ipsa omnis
+                    distinctio pariatur doloribus, possimus facere eaque?</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus adipisci quas error quidem,
+                    inventore vitae eaque ducimus commodi sed nam, maxime repellat soluta. Laborum repudiandae
+                    architecto possimus exercitationem, corrupti dicta!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis cum provident dignissimos
+                    quisquam. Sapiente cumque maxime, nemo totam accusamus vel eum eveniet nihil atque sed magni harum,
+                    officia repellendus beatae.</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos tempore consequatur optio dicta
+                    facere, assumenda repudiandae, ea nam consectetur aperiam quod, magni voluptas quis minus nisi autem
+                    beatae iste temporibus.</p>
+
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter your name">
+                            <input type="email" placeholder="Enter your email">
+                            <textarea rows="5" placeholder="Your comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">Post comment</button>
+                        </form>
+                    </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business analysis</span>
+                        <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Cybersecurity</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>AutCAD</span>
+                    <span>20</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Saepe dolorem quia laborum, eaque dicta aperiam veniam
+            voluptatum eius, soluta<br>adipisci laboriosam! Natus ratione
+            corporis, at qui cupiditate eaque quibusdam harum.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </footer>
+</body>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+        href="
+        https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>university</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="/css/images/stanford-logo-removebg-preview.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Odio perspiciatis rerum molestiae blanditiis!<br> Voluptates iure
+                unde praesentium nam, ducimus cum magnam</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+<!----------------javascript fpr toggle menu-------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px"
+        }
+    </script>
+    <!-----------------courses--------------------->
+    <section class="courses" id="courses">
+        <div class="title">
+            <h2>Courses We Offer</h2>
+            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit<h6>
+        </div>
+        <div class="content">
+            <div class="card">
+                <div class="info">
+                    <h3>Intermediate</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Odio perspiciatis rerum molestiae blanditiis! Voluptates iure
+                        unde praesentium nam, ducimus cum magnam</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <h3>Degree</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Odio perspiciatis rerum molestiae blanditiis! Voluptates iure
+                        unde praesentium nam, ducimus cum magnam</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <h3>Master</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Odio perspiciatis rerum molestiae blanditiis Voluptates iure
+                        unde praesentium nam, ducimus cum magnam</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------campus------------------------->
+    <section class="campus">
+        <h2>Our Global Campus</h2>
+        <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit</h6>
+        <div class="row">
+            <div class="campus-col">
+                <img src="./css/images/building.jpg">
+                <!-- <div class="layer">
+                    <h3>London</h3>
+                </div> -->
+            </div>
+            <div class="campus-col">
+                <img src="./css/images/building2.jpg">
+                <!-- <div class="layer">
+                    <h3>London</h3>
+                </div> -->
+            </div>
+            <div class="campus-col">
+                <img src="./css/images/building3.jpeg">
+                <!-- <div class="layer">
+                    <h3>London</h3>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!--------------------facilities----------------->
+    <section class="faciities">
+        <div class="title">
+            <h2>Our Facilities</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+        </div>
+        <div class="fac-img">
+            <div class="facilities-col">
+                <img src="./css/images/library.jpg">
+                <div class="text">
+                    <h3>World class library</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nostrum officiis reiciendis voluptates beatae eligendi magnam, ullam qui</p>
+                    </p>
+                </div>
+            </div>
+            <div class="facilities-col">
+                <img src="./css/images/cafe.png">
+                <div class="text">
+                    <h3>Tasty and healthy food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nostrum officiis reiciendis voluptates beatae eligendi magnam, ullam qui</p>
+                    </p>
+                </div>
+            </div>
+            <div class="facilities-col">
+                <img src="./css/images/basketball.jpg">
+                <div class="text">
+                    <h3>Largest play ground</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nostrum officiis reiciendis voluptates beatae eligendi magnam, ullam qui</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="student-rev">
+        <div class="title">
+            <h2>What our stuent says</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+        </div>
+        <div class="student-img">
+            <div class="student-col">
+                <img src="./css/images/woman.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Necessitatibus nisi provident natus commodi quisquam aut
+                        qui magnam inventore consequatur in deserunt itaque accusamus
+                        error blanditiis, atque quo minima quas ex!</p>
+                    <h3>Noura Muhammad</h3>
+                </div>
+            </div>
+            <div class="student-col">
+                <img src="./css/images/man.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Necessitatibus nisi provident natus commodi quisquam aut
+                        qui magnam inventore consequatur in deserunt itaque accusamus
+                        error blanditiis, atque quo minima quas ex!</p>
+                    <h3>Ahmed A. El-Otify</h3>
+                </div>
+
+            </div>
+    </section>
+
+    <section class="cta" ">
+        <h1>Enroll For Our Various Online Courses<br>Anywhere From The
+            World</h1>
+        <a href="contact.html" class="hero-btn">Contact Us</a>
+    </section>
+
+    <footer>
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Saepe dolorem quia laborum, eaque dicta aperiam veniam
+            voluptatum eius, soluta<br>adipisci laboriosam! Natus ratione
+            corporis, at qui cupiditate eaque quibusdam harum.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+    </footer>
+</body>
+
+</html>
