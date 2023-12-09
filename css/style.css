@@ -9,7 +9,7 @@
     min-height: 100vh;
     width: 100%;
     background-image:
-        linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/css/images/university.jpg);
+        linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./images/university.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -115,34 +115,6 @@ nav .fa-solid {
         font-size: 20px;
     }
 
-    .nav-links ul li {
-        display: block;
-    }
-
-    .nav-links {
-        position: fixed;
-        background-color: #f44336;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: 0;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
-
-    .nav-links ul {
-        padding: 30px;
-    }
-
-    nav .fa-solid {
-        display: block;
-        color: #fff;
-        cursor: pointer;
-        font-size: 22px;
-        margin: 10px;
-
-    }
 
     .courses {
         background-color: #ffffff;
@@ -261,7 +233,7 @@ nav .fa-solid {
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
-        margin-right: -100px;
+        margin-right: -27x;
     }
 }
 
@@ -282,7 +254,7 @@ nav .fa-solid {
 }
 
 .campus-col img {
-    width: 360px;
+    width: 300px;
     border-radius: 15px;
     height: 480px;
     object-fit: cover;
@@ -311,11 +283,11 @@ nav .fa-solid {
     padding: 20px 70px;
     transition: 1s ease;
 
-    margin-left: -15px;
+    margin-left: -34px;
 }
 
 .facilities-col img {
-    width: 400px;
+    width: 300px;
     border-radius: 20px;
     height: 400px;
     align-items: center;
@@ -323,7 +295,7 @@ nav .fa-solid {
 }
 
 .facilities-col .text {
-    width: 400px;
+    width: 300px;
     text-align: center;
     padding-bottom: 20px;
 }
@@ -338,7 +310,6 @@ nav .fa-solid {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
     flex-wrap: wrap;
     margin: 0 20px;
     padding: 20px 70px;
